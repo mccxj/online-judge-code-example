@@ -50,12 +50,11 @@ public class Solution {
 
     @Test(expected = Exception.class)
     public void test() {
-        Solution s = new Solution();
-        assertEquals(321, s.reverse(123));
-        assertEquals(-321, s.reverse(-123));
-        assertEquals(0, s.reverse(0));
-        assertEquals(1, s.reverse(10));
-        assertEquals(1, s.reverse(100));
-        System.out.println(s.reverse(1000000003));
+        assertEquals(321, reverse(123));
+        assertEquals(-321, reverse(-123));
+        assertEquals(0, reverse(0));
+        assertEquals(1, reverse(10));
+        assertEquals(1, reverse(100));
+        System.out.println(reverse(1000000003));
     }
 }

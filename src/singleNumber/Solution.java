@@ -21,9 +21,8 @@ public class Solution {
 
     @Test
     public void test() {
-        Solution s = new Solution();
-        assertEquals(2, s.singleNumber(new int[]{1, 2, 3, 1, 3}));
-        assertEquals(1, s.singleNumber(new int[]{1, 3, 21, 21, 3}));
-        assertEquals(-2, s.singleNumber(new int[]{1, 0, -1, 21, 21, -1, -2, 0, 1}));
+        assertEquals(2, singleNumber(new int[]{1, 2, 3, 1, 3}));
+        assertEquals(1, singleNumber(new int[]{1, 3, 21, 21, 3}));
+        assertEquals(-2, singleNumber(new int[]{1, 0, -1, 21, 21, -1, -2, 0, 1}));
     }
 }

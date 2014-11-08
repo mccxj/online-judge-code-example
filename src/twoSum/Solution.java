@@ -50,8 +50,7 @@ public class Solution {
 
     @Test
     public void test() {
-        Solution s = new Solution();
-        int[] res = s.twoSum(new int[]{0, 4, 3, 0}, 0);
+        int[] res = twoSum(new int[]{0, 4, 3, 0}, 0);
         assertEquals(1, res[0]);
         assertEquals(4, res[1]);
     }

@@ -27,11 +27,11 @@ import static org.junit.Assert.assertTrue;
  * <p/>
  * confused what "{1,#,2,3}" means? > read more on how binary tree is serialized on OJ.
  * Definition for binary tree
- * public class TreeNode {
+ * public class sameTree.TreeNode {
  * int val;
- * TreeNode left;
- * TreeNode right;
- * TreeNode(int x) { val = x; }
+ * sameTree.TreeNode left;
+ * sameTree.TreeNode right;
+ * sameTree.TreeNode(int x) { val = x; }
  * }
  */
 public class Solution {
