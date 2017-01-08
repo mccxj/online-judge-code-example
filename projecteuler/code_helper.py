@@ -22,6 +22,8 @@ def range_prime(max=100000000):
             for p in prime:
                 if x % p == 0:
                     return False
+                if p * p > x:
+                    return True
             return True
 
         for i in range(3, max + 1, 2):
