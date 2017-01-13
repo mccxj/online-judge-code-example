@@ -27,5 +27,4 @@ class Test0032(unittest.TestCase):
                     choose[i] = 0
 
         check_num(0)  #check from pos 0
-        print products
         self.assertEqual(sum(set(products)), 45228)
