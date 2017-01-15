@@ -55,3 +55,11 @@ def binary_search(a, x, lo=0,
     hi = hi if hi is not None else len(a)  # hi defaults to len(a)   
     pos = bisect_left(a, x, lo, hi)  # find insertion position
     return (pos if pos != hi and a[pos] == x else -1)  # don't walk off the end
+
+
+def gcd(a, b):
+    if a < b:
+        a, b = b, a
+    while b != 0:
+        a, b = b, a % b
+    return a
